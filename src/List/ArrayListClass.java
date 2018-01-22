@@ -20,7 +20,11 @@ public class ArrayListClass {
 		
 		System.out.println(numbers);
 		
-		Iterator p=numbers.iterator();
+		
+		System.out.println("\n");
+		
+		Iterator<Integer> p=numbers.iterator();
+		
 		while(p.hasNext())
 		System.out.println(p.next());
 		
