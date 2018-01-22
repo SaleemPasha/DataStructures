@@ -30,6 +30,8 @@ public class ArrayListClass {
 		while(p.hasNext())
 		System.out.println(p.next());
 		
+		//inserting a element at a particular index
+		numbers.set(3, 93);
 		System.out.println("\n");
 
 		//another way of printing
