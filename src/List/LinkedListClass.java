@@ -16,9 +16,7 @@ public class LinkedListClass {public static void main(String args[])
     object.add("F");
     object.add("G");
     System.out.println("Linked list : " + object);
-    System.out.println("Linked list : " + object);
-
-    // Removing elements from the linked list
+       // Removing elements from the linked list
     object.remove("B");
     object.remove(3);
     object.removeFirst();
