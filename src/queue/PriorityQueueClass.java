@@ -45,8 +45,8 @@ public class PriorityQueueClass {
  
         // Check if an element is present
         boolean b = pQueue.contains("C");
-        System.out.println ( "Priority queue contains C" +
-                             "ot not?: " + b);
+        System.out.println ( "Priority queue contains C " +
+                             "or not?: " + b);
  
         // get objects from the queue in an array and
         // print the array
