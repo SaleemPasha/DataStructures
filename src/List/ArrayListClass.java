@@ -18,12 +18,15 @@ public class ArrayListClass {
 		numbers.add(25);
 		numbers.add(01);
 		//one way to print arraylist
+		System.out.println("Printing the numbers :");
 		System.out.println(numbers);
 		
 		
 		System.out.println("\n");
 		
 		numbers.remove(4);
+		
+		System.out.println("printing numbers using Iterator: ");
 		//printing using Iterator
 		Iterator<Integer> p=numbers.iterator();
 		
@@ -33,10 +36,12 @@ public class ArrayListClass {
 		//inserting a element at a particular index
 		numbers.set(3, 93);
 		System.out.println("\n");
-
+System.out.println("printing numebr using enhanced for loop: ");
 		//another way of printing
 		for(Integer x:numbers)
 			System.out.println(x);
+		
+		
 		
 		numbers.clear();
 		System.out.println("\n");
